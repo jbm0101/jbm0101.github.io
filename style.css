@@ -1,0 +1,94 @@
+.school {
+    background-color: rgb(251, 255, 0);
+}
+
+.graduation {
+    background: black;
+      margin: 0;
+      font-family: var(--bs-font-sans-serif);
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: white;
+}
+
+.skills {
+    font-size: larger;
+    background: rgba(163, 67, 131, 0.877);
+}
+
+#pl {
+    background: greenyellow;
+}
+
+#os {
+    background: rgba(29, 226, 62, 0.883)
+}
+
+#social {
+    background-color: gray;
+}
+
+#hobbies {
+    font-size: larger;
+    background-color: aquamarine;
+}
+
+#image {
+    align-self: auto;
+}
+
+#ig {
+    height: 75px;
+    width: 75px;
+    border-radius: 400px;
+    border-color: black;
+    border-inline-color: black;
+    padding: 10px;
+    margin: 15px;
+}
+
+#gh {
+    height: 75px;
+    width: 75px;
+    border-radius: 400px;
+    padding: 10px;
+    margin: 15px;
+
+}
+
+.medium {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 65px;
+}
+
+ol,
+ul {
+    list-style: outside;
+}
+
+h4 {
+    font-size: x-large;
+}
+
+header {
+    background: rgba(19, 114, 202, 0.137);
+}
+
+img.large {
+    width: 500px;
+    height: 500px;
+}
+
+img.medium {
+    width: 300px;
+    height: 400px;
+}
+
+img.small {
+    width: 100px;
+    height: 100px;
+}
