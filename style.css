@@ -1,68 +1,114 @@
-.school {
-    background-color: rgb(251, 255, 0);
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
 }
 
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: '§';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
+
+aside > p {
+    margin: .5rem;
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+body{
+    background: rgb(6,57,112);
+}
 .graduation {
-    background: black;
-      margin: 0;
-      font-family: var(--bs-font-sans-serif);
-      font-size: 1rem;
-      font-weight: 400;
-      line-height: 1.5;
-      color: white;
+    background-color: #212529 !important;
+    margin: 0;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: white;
+    padding: 10px
 }
 
 .skills {
     font-size: larger;
-    background: rgba(163, 67, 131, 0.877);
+    background: rgba(0, 0, 0, 0.877);
+    color: white
+}
+
+.tb{
+    border-color: white;
+    border: 1px;
+    border-radius: 1px;
+}
+
+#name{
+    font-size: xx-large;
+    background-color: black;
+    color: white;
+    padding: 10px;
 }
 
 #pl {
-    background: greenyellow;
+    background: rgb(61, 61, 61);
 }
 
 #os {
-    background: rgba(29, 226, 62, 0.883)
+    background: rgb(61, 61, 61);
 }
 
 #social {
-    background-color: gray;
+    /*background-color: rgb(0, 0, 0);*/
+    color: black;
 }
 
 #hobbies {
     font-size: larger;
-    background-color: aquamarine;
+    background-color: rgb(33, 45, 46);
+    color: white;
 }
 
 #image {
     align-self: auto;
 }
 
-#ig {
+#gh, #mail, #ig {
     height: 75px;
     width: 75px;
-    border-radius: 400px;
-    border-color: black;
-    border-inline-color: black;
-    padding: 10px;
-    margin: 15px;
+    border-radius: 40px;
 }
 
-#gh {
-    height: 75px;
-    width: 75px;
-    border-radius: 400px;
-    padding: 10px;
-    margin: 15px;
+#mail{
+    margin: 10px;
+}
 
+#ig{
+    margin: 20px;
 }
 
 .medium {
     float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 10px;
-    margin-top: 65px;
+    margin-right: 50px;
+    margin-bottom: 60px;
+    margin-left: 20px;
+    margin-top: 90px;
 }
 
 ol,
@@ -85,10 +131,14 @@ img.large {
 
 img.medium {
     width: 300px;
-    height: 400px;
+    height: 300px;
 }
 
 img.small {
     width: 100px;
     height: 100px;
+}
+
+footer{
+    margin: 50px;
 }
