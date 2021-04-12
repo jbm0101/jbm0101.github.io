@@ -9,20 +9,10 @@ aside {
 }
 
 hr {
-    border: none;
-    border-top: 3px double #333;
-    color: #333;
-    overflow: visible;
-    text-align: center;
-    height: 5px;
-}
-
-hr:after {
-    background: #fff;
-    content: '§';
-    padding: 0 4px;
-    position: relative;
-    top: -13px;
+    background-color : white;
+    border-style: none;
+    height: 2px;
+    width: 100px;
 }
 
 aside > p {
@@ -35,7 +25,7 @@ p {
 
 
 .graduation {
-    background-color: #212529 !important;
+    background-color: #351f39 !important;
     margin: 0;
     font-family: var(--bs-font-sans-serif);
     font-size: 1rem;
@@ -47,7 +37,7 @@ p {
 
 .skills {
     font-size: larger;
-    background: rgba(0, 0, 0, 0.877);
+    background: #351f39;
     color: white;
     padding: 10px;
 }
@@ -65,12 +55,8 @@ p {
     padding: 10px;
 }
 
-#pl {
-    background: rgb(61, 61, 61);
-}
-
-#os {
-    background: rgb(61, 61, 61);
+#pl, #os {
+    background: #1b1717;
 }
 
 #social {
@@ -80,14 +66,15 @@ p {
 
 #hobbies {
     font-size: larger;
-    background-color: rgb(33, 45, 46);
+    background-color: #351f39;
     color: white;
     padding: 10px;
 }
 
-#image {
+/*#image {
     align-self: auto;
-}
+    border-radius: 10px;
+}*/
 
 #gh, #mail, #ig {
     height: 75px;
@@ -121,7 +108,7 @@ h4 {
 }
 
 header {
-    background: rgba(19, 114, 202, 0.137);
+    background: #a0c1b8;
 }
 
 img.large {
@@ -157,7 +144,7 @@ footer{
 
 thead,
 tfoot {
-    background-color: #333;
+    background-color: #351f39;
     color: #fff;
 }
 
