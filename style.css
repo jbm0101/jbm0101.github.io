@@ -1,93 +1,30 @@
-aside {
-    width: 40%;
-    padding-left: .5rem;
-    margin-left: .5rem;
-    float: right;
-    box-shadow: inset 5px 0 5px -5px #29627e;
-    font-style: italic;
-    color: #29627e;
-}
-
-hr {
-    background-color : white;
-    border-style: none;
-    height: 2px;
-    width: 100px;
-}
-
-aside > p {
-    margin: .5rem;
-}
-
-p {
+body {
     font-family: 'Fira Sans', sans-serif;
-}
-
-
-.graduation {
-    background-color: #351f39 !important;
-    margin: 0;
-    font-family: var(--bs-font-sans-serif);
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
+    background-color: #537895;
+    background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
     color: white;
+}
+
+footer{
+    margin-bottom: 30px;
+}
+
+header {
+    background: #a0c1b8;
+}
+
+hr{
+    margin: 5px auto 5px auto;
+    background-color: transparent;
+    border-style: dotted none none;
+    height: 2px;
+    width: 15%;
+    border-width: 10px;
+    border-color: #7f5af0;
+}
+
+td{
     padding: 10px;
-}
-
-.skills {
-    font-size: larger;
-    background: #351f39;
-    color: white;
-    padding: 10px;
-}
-
-.tb{
-    border-color: white;
-    border: 1px;
-    border-radius: 1px;
-}
-
-#name{
-    font-size: xx-large;
-    background-color: black;
-    color: white;
-    padding: 10px;
-}
-
-#pl, #os {
-    background: #1b1717;
-}
-
-#social {
-    /*background-color: rgb(0, 0, 0);*/
-    color: black;
-}
-
-#hobbies {
-    font-size: larger;
-    background-color: #351f39;
-    color: white;
-    padding: 10px;
-}
-
-/*#image {
-    align-self: auto;
-    border-radius: 10px;
-}*/
-
-#gh, #mail, #ig {
-    height: 75px;
-    width: 75px;
-    border-radius: 40px;
-}
-
-#mail{
-    margin: 10px;
-}
-
-#ig{
-    margin: 20px;
 }
 
 .medium {
@@ -98,56 +35,102 @@ p {
     margin-top: 90px;
 }
 
-ol,
-ul {
-    list-style: outside;
+.graduation {
+    background-color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 10px;
 }
 
-h4 {
-    font-size: x-large;
+h2.headings{
+    color: #2cb67d;
 }
 
-header {
-    background: #a0c1b8;
+h4.headings{
+    color: #7f5af0;
 }
 
-img.large {
+.skills {
+    background-color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 10px;
+}
+
+.large {
     width: 500px;
     height: 500px;
 }
 
-img.medium {
+.medium {
     width: 300px;
     height: 300px;
+    border-radius: 150px;
 }
 
-img.small {
+.small {
     width: 100px;
     height: 100px;
 }
 
-footer{
-    margin: 50px;
-}
-
 .checked {
-  color: orange;
+  color: #2cb67d;
 }
 
 
-.td {
-  table-layout: fixed;
-  width: 50%;
-  border-collapse: separate;;
-  border: 3px solid white;
+
+.ost, .ht, .plt{
+    table-layout: fixed;
+    font-size: small;
+    width: 30%;
 }
 
-thead,
-tfoot {
-    background-color: #351f39;
-    color: #fff;
+.gt {
+  table-layout:auto;ixed;
+  font-size: small;
+  width: 60%;
+  border-collapse: unset;
 }
 
-div{
-    margin: 2px;
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    color: #2cb67d;
+}
+
+#name{
+    font-size: xx-large;
+    background-color: #7f5af0;
+    color: white;
+    padding: 10px;
+}
+
+#social {
+    color: #fffffe;
+}
+
+#hobbies {
+    background-color: black;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 10px;}
+
+#gh, #mail, #ig {
+    height: 75px;
+    width: 75px;
+    border-radius: 40px;
+}
+
+#mail{
+    margin-left: 30px;
+}
+
+#ig{
+    margin-right: 30px;
 }
